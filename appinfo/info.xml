@@ -19,6 +19,7 @@ Provides user creation and login via one single OpenID Connect provider. Extensi
 - WebDAV endpoints `Bearer` and `Basic` authentication
 - Optional removal of special characters in UID
 - Mapping of multiple names to a single display name
+- Mapping for birthdate
 ]]></description>
     <version>3.2.0</version>
     <licence>agpl</licence>
@@ -30,6 +31,6 @@ Provides user creation and login via one single OpenID Connect provider. Extensi
     <bugs>https://github.com/a-sit/nextcloud-oidc-login/issues</bugs>
     <repository>https://github.com/a-sit/nextcloud-oidc-login/tree/feature/oidc-ida-login</repository>
     <dependencies>
-        <nextcloud min-version="26" max-version="30" />
+        <nextcloud min-version="30" max-version="30" />
     </dependencies>
 </info>
